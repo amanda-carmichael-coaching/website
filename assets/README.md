@@ -1,0 +1,1 @@
+Public downloadable assets for the Amanda Carmichael Coaching website.
