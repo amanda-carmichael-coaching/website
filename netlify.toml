@@ -1,6 +1,30 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "https://shenavigates.com/*"
+  to = "https://amandacarmichaelcoaching.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "https://www.shenavigates.com/*"
+  to = "https://amandacarmichaelcoaching.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://shenavigates.com/*"
+  to = "https://amandacarmichaelcoaching.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "http://www.shenavigates.com/*"
+  to = "https://amandacarmichaelcoaching.com/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/*"
   [headers.values]
